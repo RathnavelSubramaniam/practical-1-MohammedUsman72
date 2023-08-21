@@ -3,15 +3,15 @@ class season{
         int month = 4;
         String season;
         if(month == 12|| month == 1|| month == 2)
-        Season = "Winter";
+        season = "Winter";
 else if(month == 3 || month == 4 || month == 5)
-        Season = "Spring";
+        season = "Spring";
 else if(month == 6 || month == 7 || month == 8)
-        Season = "Summer";
+        season = "Summer";
 else if(month == 9 || month == 10 || month == 11)
-        Season = "Autumn";
+        season = "Autumn";
 else
-         Season ="Bogus Month";
+         season ="Bogus Month";
 System.out.println("April is in the" + season + ".");         
     }
 }
